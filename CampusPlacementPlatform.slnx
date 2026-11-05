@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="CampusPlacement.API/CampusPlacement.API.csproj" Id="7512cee9-0554-4818-bf58-2950985e8139" />
+  <Project Path="CampusPlacement.BusinessLogic/CampusPlacement.BusinessLogic.csproj" />
+  <Project Path="CampusPlacement.DataAccess/CampusPlacement.DataAccess.csproj" Id="79bcc2ed-73f7-4621-804e-1a5e23ac9d60" />
+  <Project Path="CampusPlacement.Domain/CampusPlacement.Domain.csproj" />
+</Solution>
