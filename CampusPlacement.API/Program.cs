@@ -59,7 +59,7 @@ using (var scope = app.Services.CreateScope())
     var config = services.GetRequiredService<IConfiguration>();
     await DbInitializer.SeedAsync(services, config);
 }
-
+builder.Services.AddScoped<ICollegeService, CollegeService>();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
