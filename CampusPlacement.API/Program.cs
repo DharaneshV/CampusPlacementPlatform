@@ -59,6 +59,8 @@ using (var scope = app.Services.CreateScope())
     var config = services.GetRequiredService<IConfiguration>();
     await DbInitializer.SeedAsync(services, config);
 }
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+builder.Services.AddScoped<ICompanyHRService, CompanyHRService>();
 builder.Services.AddScoped<IPlacementOfficerService, PlacementOfficerService>();
 builder.Services.AddScoped<ICollegeService, CollegeService>();
 if (app.Environment.IsDevelopment())
