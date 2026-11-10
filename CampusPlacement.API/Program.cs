@@ -63,6 +63,7 @@ builder.Services.AddScoped<ICompanyService, CompanyService>();
 builder.Services.AddScoped<ICompanyHRService, CompanyHRService>();
 builder.Services.AddScoped<IPlacementOfficerService, PlacementOfficerService>();
 builder.Services.AddScoped<ICollegeService, CollegeService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
